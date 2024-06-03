@@ -1,0 +1,73 @@
+@media screen and (max-width : 1400px ){
+    #home{
+        height: 83vh;
+    }
+
+    .section-text{
+        flex: wrap;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    #home, .section-text{
+        display: block;
+    }
+    .nav-links{
+        gap: 1rem;
+        font-size: 1rem;
+    }
+    .logo{
+        display: none;
+    }
+    .section-pic{
+        width: 250px;
+        height: 250px;
+        margin: 0 auto 2rem;
+    }
+    section, .section-text{
+        height: fit-content;
+        
+    }
+    section{
+        margin:0 5%;
+    }
+    
+    .education-container{
+        display: block;
+        
+    }
+    .ed-main{
+        width: auto;
+    }
+    .ed-details{
+        margin-right: 1rem;
+    }
+    .ed-para{
+        margin-left: auto;
+        margin-right: auto;
+    }
+.exp-details-container{
+    display: block;
+}
+.exp-details{
+    margin-top: 1rem;
+}
+
+.cert-title-container{
+    margin-top: 1rem;
+}
+.cert-details{
+    margin-top: 1rem;
+}
+
+.contact-main-container{
+   display: block;
+   
+}
+
+.contact-sub{
+    justify-content: left;
+    padding: 1rem;
+}
+
+}
